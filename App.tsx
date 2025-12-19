@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { JargonTerm, DictionaryData } from './types.ts';
+import { JargonTerm, DictionaryData } from './types';
 
-const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfnFN6eNWK6YHLe6qzdH2WloK-ZxJgAsutPniXE-ImC-_kwzg/viewform?usp=dialog";
+const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfP8y9_k1m6m7P_your_form_id/viewform"; // Replace with actual form URL
 
 const App: React.FC = () => {
   const [data, setData] = useState<DictionaryData>({ terms: [], categories: ['General'] });
@@ -12,6 +12,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const loadData = async () => {
+      // Still check local storage for cache, but primary is words.json
       const saved = localStorage.getItem('lingo_data_v2');
       if (saved) {
         setData(JSON.parse(saved));
