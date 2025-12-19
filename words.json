@@ -1,6 +1,59 @@
 {
   "terms": [
     {
+      "term": "Salimanecessary",
+      "pronunciation": "/sˈalɪmənˈɛsɪsəɹi/",
+      "meanings": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "Extremely important",
+          "example": "Today's lesson is salimanecessary."
+        }
+      ],
+      "category": "Characteristic",
+      "id": "rrne7lpih",
+      "tags": [],
+      "createdAt": 1766172137629,
+      "isAiGenerated": false
+    },
+    {
+      "term": "Eliasential",
+      "pronunciation": "/ᵻlˌɪasˈɛnʃə͡l/",
+      "meanings": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "Extremely important",
+          "example": "This modification is eliasential to maintain our business strategy."
+        },
+        {
+          "partOfSpeech": "adjective",
+          "definition": "Related to the company Eliasential Foods",
+          "example": "The cereal is great. You could say it's eliasential."
+        }
+      ],
+      "category": "Characteristic",
+      "id": "5azt36igb",
+      "tags": [],
+      "createdAt": 1766172041576,
+      "isAiGenerated": false
+    },
+    {
+      "term": "Plungy",
+      "pronunciation": "/plˈuːnd͡ʒiː/",
+      "meanings": [
+        {
+          "partOfSpeech": "adjective",
+          "definition": "Ms. Sonja, Čukić",
+          "example": "You're plungy."
+        }
+      ],
+      "category": "Slur",
+      "id": "35p5wm40r",
+      "tags": [],
+      "createdAt": 1766171784176,
+      "isAiGenerated": false
+    },
+    {
       "term": "Smikhi-smikhi",
       "pronunciation": "/smʲˈixɪ-smʲˈixɪ/",
       "meanings": [
@@ -82,6 +135,8 @@
   ],
   "categories": [
     "General",
-    "Emotion"
+    "Emotion",
+    "Slur",
+    "Characteristic"
   ]
 }
