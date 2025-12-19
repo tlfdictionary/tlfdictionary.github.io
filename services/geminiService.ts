@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { JargonTerm } from "../types";
+import { JargonTerm } from "../types.ts";
 
 export class GeminiService {
   private ai: GoogleGenAI;

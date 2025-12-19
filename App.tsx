@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { JargonTerm, DictionaryData } from './types';
+import { JargonTerm, DictionaryData } from './types.ts';
 
 const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfnFN6eNWK6YHLe6qzdH2WloK-ZxJgAsutPniXE-ImC-_kwzg/viewform?usp=dialog";
 
